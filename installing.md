@@ -37,7 +37,9 @@ It can also be downloaded from [here](http://julialang.org/downloads/); see also
 [IJulia](https://github.com/JuliaLang/IJulia.jl) is a Julia interface for the [Jupyter (formerly IPython) notebook](http://ipython.org/)
 that we will use extensively.
 
-To install it, you first need to install IPython itself. The simplest way to do so is to install the free [Anaconda Python distribution](http://continuum.io/downloads), which includes IPython, the `matplotlib` plotting library, and many other useful Python packages.
+##
+
+First you must install IPython itself. [Currently, the parts of IPython which are not directly related to Python are being separated out into a package called Jupyter.] The simplest way to do so is to install the free [Anaconda Python distribution](http://continuum.io/downloads), which includes IPython, the `matplotlib` plotting library, and many other useful Python packages.
 
 If you prefer something more lightweight, you can use `pip` (an installer for Python packages):
 
@@ -58,5 +60,12 @@ export LANG=en_US.UTF-8
 to the `.bash_profile` file in your home directory (or create that file with that content if it does not already exist).
 
 
+## Installing the IJulia package
 
+Once the IPython notebook has been installed, run Julia, and from within Julia add the IJulia package:
 
+```julia
+Pkg.add("IJulia")
+```
+After several things have been installed, you should see a message saying that IJulia successfully found your IPython installation and
+has created the necessary files.
