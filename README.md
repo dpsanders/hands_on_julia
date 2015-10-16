@@ -9,6 +9,10 @@ user to try out ideas semi-autonomously, as opposed to
 standard tutorials, which tend to give all the answers 
 immediately.
 
-I (David Sanders) was the on-site instructor for both days,
+David Sanders was the on-site instructor for both days,
 helping sort out installation problems, asking questions,
 and discussing various points at the front of the class.
+
+## Acknowledgements
+
+Financial support is acknowledged from DGAPA-UNAM PAPIME grant PE-107114, and DGAPA-UNAM PAPIIT grant IN-117214.
